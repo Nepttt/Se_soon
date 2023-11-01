@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Nepttt/Se_soon/static/css/main.e9ec668d.css",
-    "main.js": "/Nepttt/Se_soon/static/js/main.60dc8018.js",
-    "static/js/787.0e8ea75c.chunk.js": "/Nepttt/Se_soon/static/js/787.0e8ea75c.chunk.js",
-    "static/media/background_image.gif": "/Nepttt/Se_soon/static/media/background_image.d12042cf18175d02c91c.gif",
-    "static/media/Cafe24Ssurround-v2.0.woff": "/Nepttt/Se_soon/static/media/Cafe24Ssurround-v2.0.57c1097faa8743dc962f.woff",
-    "static/media/Cafe24SsurroundAir-v1.1.woff": "/Nepttt/Se_soon/static/media/Cafe24SsurroundAir-v1.1.ade7cabcc477d34db6fa.woff",
-    "static/media/NanumSquareNeoTTF-dEb.woff": "/Nepttt/Se_soon/static/media/NanumSquareNeoTTF-dEb.c393afd7217c692a3cdd.woff",
-    "static/media/NanumSquareNeoTTF-bRg.woff": "/Nepttt/Se_soon/static/media/NanumSquareNeoTTF-bRg.3ef1b154df4dd187269a.woff",
-    "static/media/KakaoTalk_20231024_150637121.png": "/Nepttt/Se_soon/static/media/KakaoTalk_20231024_150637121.4b5428e61bead4f718c8.png",
-    "static/media/NanumSquareNeoTTF-cBd.woff": "/Nepttt/Se_soon/static/media/NanumSquareNeoTTF-cBd.b97fa8bab0f60689763b.woff",
-    "index.html": "/Nepttt/Se_soon/index.html",
-    "main.e9ec668d.css.map": "/Nepttt/Se_soon/static/css/main.e9ec668d.css.map",
-    "main.60dc8018.js.map": "/Nepttt/Se_soon/static/js/main.60dc8018.js.map",
-    "787.0e8ea75c.chunk.js.map": "/Nepttt/Se_soon/static/js/787.0e8ea75c.chunk.js.map"
+    "main.css": "/Se_soon/static/css/main.fe5d9c11.css",
+    "main.js": "/Se_soon/static/js/main.a539ef4f.js",
+    "static/js/787.0e8ea75c.chunk.js": "/Se_soon/static/js/787.0e8ea75c.chunk.js",
+    "static/media/background_image.gif": "/Se_soon/static/media/background_image.d12042cf18175d02c91c.gif",
+    "static/media/Cafe24Ssurround-v2.0.woff": "/Se_soon/static/media/Cafe24Ssurround-v2.0.57c1097faa8743dc962f.woff",
+    "static/media/Cafe24SsurroundAir-v1.1.woff": "/Se_soon/static/media/Cafe24SsurroundAir-v1.1.ade7cabcc477d34db6fa.woff",
+    "static/media/NanumSquareNeoTTF-dEb.woff": "/Se_soon/static/media/NanumSquareNeoTTF-dEb.c393afd7217c692a3cdd.woff",
+    "static/media/NanumSquareNeoTTF-bRg.woff": "/Se_soon/static/media/NanumSquareNeoTTF-bRg.3ef1b154df4dd187269a.woff",
+    "static/media/KakaoTalk_20231024_150637121.png": "/Se_soon/static/media/KakaoTalk_20231024_150637121.4b5428e61bead4f718c8.png",
+    "static/media/NanumSquareNeoTTF-cBd.woff": "/Se_soon/static/media/NanumSquareNeoTTF-cBd.b97fa8bab0f60689763b.woff",
+    "index.html": "/Se_soon/index.html",
+    "main.fe5d9c11.css.map": "/Se_soon/static/css/main.fe5d9c11.css.map",
+    "main.a539ef4f.js.map": "/Se_soon/static/js/main.a539ef4f.js.map",
+    "787.0e8ea75c.chunk.js.map": "/Se_soon/static/js/787.0e8ea75c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ec668d.css",
-    "static/js/main.60dc8018.js"
+    "static/css/main.fe5d9c11.css",
+    "static/js/main.a539ef4f.js"
   ]
 }
