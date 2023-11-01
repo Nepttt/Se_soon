@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(45deg, red, yellow);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.custom-switch {
+  width: 60px; /* 원하는 너비값으로 조정하세요. */
+  height: 50px; /* 원하는 높이값으로 조정하세요. */
+}
+
+.custom-switch .MuiSwitch-switchBase.Mui-checked {
+  transform: translateX(0px); /* 원하는 크기에 맞추어 transform 값을 조정하세요. */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url('./fonts/NanumSquareNeoTTF-bRg.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url("./fonts/NanumSquareNeoTTF-cBd.woff") format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url("./fonts/NanumSquareNeoTTF-dEb.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Cafe24ssurround;
+  src: url("./fonts/Cafe24Ssurround-v2.0.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Cafe24ssurroundAir;
+  src: url("./fonts/Cafe24SsurroundAir-v1.1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/background_image.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Cafe24ssurround, sans-serif;
+}
+
+
+

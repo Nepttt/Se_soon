@@ -1,0 +1,76 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;  /* 배경색은 원하는대로 변경 가능 */
+}
+
+.chatRoom {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;  /* 배경색은 원하는대로 변경 가능 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;  /* 선택적으로 border-radius를 추가하여 모서리를 둥글게 */
+}
+
+.messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chatBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatBox input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* 모바일 화면에 대한 미디어 쿼리 */
+@media (max-width: 768px) {
+    .chatRoom {
+        padding: 10px;
+    }
+
+    .messages {
+        max-height: 300px;
+    }
+
+    .chatBox button {
+        padding: 5px 10px;
+    }
+}
+
+.message-bubble {
+    background-color: #484b52;
+    border-radius: 15px;
+    padding: 8px 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* 웹킷 브라우저 (Chrome, Safari 등) */
+.message-list::-webkit-scrollbar {
+    width: 10px; /* 스크롤 바 너비 */
+}
+
+.message-list::-webkit-scrollbar-thumb {
+    background-color: #888; /* 스크롤 바 색상 */
+    border-radius: 5px; /* 스크롤 바 모서리 둥글게 */
+}
+
+.message-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* 스크롤 바에 마우스 호버 시 색상 */
+}
+
+/* 파이어폭스 */
+.message-list {
+    scrollbar-width: thin; /* 스크롤 바 너비 */
+    scrollbar-color: #888 #f7f7f7; /* 스크롤 바 색상과 트랙 색상 */
+    padding-right: 8px;
+}
